@@ -1,0 +1,76 @@
+{
+	"profiles": [
+		{
+			"basics": {
+				"name": "Sri Venkateswara Cine Chitra - SVCC",
+				"email": "venkateswara@gmail.com",
+				"mobile": "9878685448"
+			},
+			"education": [{
+				"degree": "S.S.C",
+				"percentage": "90",
+				"institute": "St.Johns"
+			}, {
+				"degree": "Intermediate - MPC",
+				"percentage": "97",
+				"institute": "Narayana"
+			}, {
+				"degree": "B.Tech - CSE",
+				"percentage": "78",
+				"institute": "VVIT"
+			}
+
+		],
+		"skills":[
+			{
+			"type": "Programming Languages",
+			"values":["C","C++","JAVA","PYTHON","COBAL"]
+			},
+			{
+				"type": "Scripting Languages",
+				"values":["Web Technologies"]
+			},
+			{
+				"type": "Operating Systems",
+				"values":["Windows","Ubuntu","Linux"]
+			}
+		]		
+		},
+
+		{
+			"basics": {
+				"name": "Geetha Arts  Limited - GACL",
+				"email": "cine chitra@gmail.com",
+				"mobile": "9878685448"
+			},
+			"education": [{
+				"degree": "S.S.C",
+				"percentage": "89",
+				"institute": "st.johns"
+			}, {
+				"degree": "intermediate",
+				"percentage": "96",
+				"institute": "narayana"
+			}, {
+				"degree": "b.tech",
+				"percentage": "77",
+				"institute": "vvit"
+			}
+
+		],"skills":[
+			{
+			"type": "programming languages",
+			"values":["C","C++","JAVA","PYTHON","COBAL"]
+			},
+			{
+				"type": "scripting languages",
+				"values":["web technologies"]
+			},
+			{
+				"type": "operating systems",
+				"values":["windows","ubuntu","linux"]
+			}
+		]		
+		}
+	]
+}

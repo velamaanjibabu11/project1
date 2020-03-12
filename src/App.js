@@ -1,26 +1,37 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter,Route,link} from 'react-router-dom';
+import Resume1 from './Resume1';
+import Profile from './Profile';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+/*let App=()=>{
+  return(
+    <div>
+    <h1>sri</h1>
+    <h1>venkateswara</h1>
+    <C name="anji" role="web designer"> </C>
+    <C name="nageswar" role=" farmer "></C>
+
+    <R></R>
+    <D></D>
     </div>
-  );
+  )
+}*/
+
+let App=()=>{
+  return(
+    <BrowserRouter>
+    
+     <Route exact path="/" component={Profile}/>
+     <Route exact path="/resume" component={Resume1}/>
+     
+    </BrowserRouter>
+    
+ 
+    
+
+  )
 }
 
 export default App;
